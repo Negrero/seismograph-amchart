@@ -1,0 +1,27 @@
+{
+  "name": "seismograph-amchart",
+  "version": "1.0.0",
+  "description": "seismograph-amchart",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Negrero/seismograph-amchart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Negrero/seismograph-amchart/issues"
+  },
+  "homepage": "https://github.com/Negrero/seismograph-amchart#readme",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.4.10",
+    "express": "^4.17.1",
+    "mathjs": "^6.0.2",
+    "mathjs-simple-integral": "^0.1.1",
+    "polynomial": "^1.4.3",
+    "simplify-js": "github://github.com/mourner/simplify-js#3d"
+  }
+}

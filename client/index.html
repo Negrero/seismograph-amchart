@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <!-- Styles -->
+    <style>
+        #chartdivx {
+            width: 70%;
+            height: 700px;
+        }
+        #chartdivy {
+            width: 70%;
+            height: 400px;
+        }
+        #chartdivz {
+            width: 70%;
+            height: 400px;
+        }
+    </style>
+
+    <!-- Resources -->
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   
+</head>
+
+
+
+
+<!-- HTML -->
+
+<body>
+    <button onclick="loadData()">Load data</button>
+    <button onclick="acceleration()">Acceleration</button>
+    <button onclick="integration()">integration</button>
+    <div id="chartdivx"></div>
+    <script src="util.js"></script>
+</body>
+
+</html>
